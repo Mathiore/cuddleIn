@@ -54,11 +54,10 @@ nav ul li a:hover{
 
 .fa-shopping-cart{
     font-size:2.5rem;
-    color:#fff;
+    color:rgba(241, 113, 231, 0.966);
+
 }
-.fa-shopping-cart:hover{
-    color:rgba(199, 5, 124, 0.966);
-}
+
 .fa-bars
 {
     font-size:3.5rem;
