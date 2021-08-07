@@ -85,6 +85,23 @@ nav ul li a:hover{
     z-index: 0;
 }
 
+#SLOGAN{
+    margin-top: 4rem;
+    background-color: #fff;
+    font-family: "Playfair Display", serif;
+}
+
+#SLOGAN h1{
+    font-size:5rem;
+    padding:2rem;
+    
+    
+}
+
+#SLOGAN h2{
+    font-size:3rem;
+    padding:2rem;
+}
 
 
 
