@@ -15,7 +15,7 @@ html{
 
 body{
     overflow-x: hidden;
-    background-color: #000;
+    
 }
 
 #header{
@@ -30,25 +30,25 @@ body{
     z-index: 1000;
 }
 
-nav ul{
+#header nav ul{
     display:flex;
     align-items: center;
     justify-content: space-around;
     list-style: none;
 }
 
-nav ul li{
+#header nav ul li{
     margin-right: 4rem;
 }
 
-nav ul li a{
+#header nav ul li a{
     color:#fff;
     font-size: 2rem;
     text-decoration: none;
     font-family: "Playfair Display", serif;
 }
 
-nav ul li a:hover{
+#header nav ul li a:hover{
     color:rgba(199, 5, 124, 0.966);
 }
 
@@ -102,7 +102,9 @@ nav ul li a:hover{
     font-size:3rem;
     padding:2rem;
 }
-
+#SHOP{
+    background-color: #fff;
+}
 
 
 @media(max-width:768px)
@@ -113,13 +115,14 @@ nav ul li a:hover{
     .fa-bars{
         display:block;
     }
-    nav{
+    #header nav{
         position: fixed;
         top:0;
         right:-120%;
         height:100vh;
         width:35rem;
         background: #000;
+        
     }
     nav ul
     {
@@ -133,10 +136,10 @@ nav ul li a:hover{
     }
     nav ul li a
     {
-        font-size:3.25rem;
+        font-size:3.25rem !important;
     }
     .nav-toggle
     {
-        right:0;
+        right:0 !important;
     }
 }
