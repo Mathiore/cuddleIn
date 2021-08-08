@@ -223,6 +223,14 @@ a{
     {
         right:0 !important;
     }
-
-    
+    #SHOP .card{
+        max-width: 100%;
+    }
+    #SHOP nav ul{
+        display: flex;
+        width:50rem;
+    }
+    #SHOP nav ul li a{
+        margin-right: 2rem;
+    }
 }
