@@ -143,6 +143,7 @@ body{
 
 #SHOP .card img{
    border-radius: 0.5rem; 
+   width:100%;
 }
 #SHOP .card .medium{
     width:100%;
@@ -222,4 +223,6 @@ a{
     {
         right:0 !important;
     }
+
+    
 }
