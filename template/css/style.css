@@ -111,7 +111,10 @@ body{
     background-color: #fff;
     font-size:3rem;
     padding:4rem;
-    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -135,6 +138,48 @@ body{
 }
 
 #SHOP nav ul li a:hover{
+    color:rgba(241, 113, 231, 0.966);
+}
+
+#SHOP .card img{
+   border-radius: 0.5rem; 
+}
+#SHOP .card .medium{
+    width:100%;
+}
+
+#SHOP .card{
+    border:0.1rem #c0c0c0 solid;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    max-width: 25rem;
+}
+
+#SHOP .card .card-body{
+    padding:1rem;
+
+}
+
+.card-body > *{
+    margin-bottom: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+.price{
+    font-size:2.5rem;
+    font-weight: 700;
+    font-family:"STIX Two Text", serif;
+}
+
+#SHOP .card h2{
+    color:#000;
+}
+
+#SHOP .card h2:hover{
     color:rgba(241, 113, 231, 0.966);
 }
 
