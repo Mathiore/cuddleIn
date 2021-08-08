@@ -79,7 +79,12 @@ body{
     font-size:10rem;
     color:#fff;
     font-family:"STIX Two Text", serif;
-
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0001);
+    line-height: 0;
+    outline:none;
+}
+#INICIO .fa-heart{
+    animation: animate 5s linear infinite;
 }
 
 #INICIO{
@@ -106,6 +111,7 @@ body{
     padding:2rem;
     border-bottom: 1px solid #000;
     margin-bottom:2%;
+    line-height: 3;
 }
 #SHOP{
     background-color: #fff;
@@ -179,7 +185,6 @@ a{
     font-size:2.5rem;
     font-weight: 700;
     font-family:"STIX Two Text", serif;
-
 }
 
 #SHOP .card h2{
@@ -197,6 +202,21 @@ a{
 #SHOP .card .desc p {
     font-size:2rem;
     width:100%;
+}
+@keyframes animate{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%{
+        color:#f51212;
+        text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 80.1%, 100%{
+        color:#fff;
+        text-shadow: 0 0 10px #f51212,
+        0 0 20px #f51212,
+        0 0 40px #f51212,
+        0 0 80px #f51212,
+        0 0 160px #f51212;
+        
+    }
 }
 
 @media(max-width:768px)
