@@ -28,7 +28,7 @@ body{
     align-items: center;
     justify-content: space-between;
     padding:2rem 2rem;
-    z-index: 1000;
+    z-index: 1;
 }
 
 #header nav ul{
@@ -204,7 +204,9 @@ a{
     width:100%;
 }
 
-
+.modal-title{
+    font-size:2rem;
+}
 
 #GIFTS .form-control{
     font-size: 2rem;
