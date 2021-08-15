@@ -2,20 +2,14 @@ import React from 'react';
 import './style.css';
 import './css/bootstrap.min.css';
 import './css/bootstrap.min.css.map';
+import Navbar from './components/Navbar.jsx'
 
 export default App =>
 
     <div>
-        <header id="header">
-            <div class="fas fa-bars"></div>
-            <nav id="topmenu">
-                <ul>
-                    <li><a href="#SHOP">Shop</a></li>
-                    <li><a href="sigin.html">Sign in</a></li>
-                    <li><a href="cart.html">Cart<i class="fas fa-shopping-cart"></i></a></li>
-                </ul>
-            </nav>
-        </header>
+        <Navbar>
+            
+        </Navbar>
 
         <section id="INICIO" class="container-fluid">
             <div class="row min-vh-100 align-items-center">
