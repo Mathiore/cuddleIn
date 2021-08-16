@@ -1,17 +1,23 @@
 import React from 'react';
+import data from '../data.jsx';
+import './styles/Card.css';
 
 export default Card =>
-    <div>
-        <div class="card">
-                <a href="product.html"><img class="medium" src="img/pe.png" alt="product"></img></a>
-                <div class="card-body">
-                    <a href="product.html"><h2>Massagem nos pés</h2></a>
+    <div className="card-hold">
+        {
+            data.products.map(products => (
+            <div className="card">
+                <a href="product.html"><img className="medium" src={products.image} alt="product"></img></a>
+                <div className="card-body">
+                    <a href="product.html"><h2>{products.name}</h2></a>
                 </div>
-                <div class="desc">
-                    <p>Compre uma massagem para os pé para relaxar.</p>
+                <div className="desc">
+                    <p>{products.desc}</p>
                 </div>
-                <div class="price">
-                    R$0,50
+                <div className="price">
+                    R${products.price}
                 </div>
             </div>
+            ))
+        }
     </div>
