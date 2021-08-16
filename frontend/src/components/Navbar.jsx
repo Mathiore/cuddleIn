@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/Navbar.css'
 
 export default Navbar =>
-    <div>
+    <div className="MENU">
         <header id="header">
             <div class="fas fa-bars"></div>
             <nav id="topmenu">

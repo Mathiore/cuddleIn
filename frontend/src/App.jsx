@@ -3,6 +3,7 @@ import './style.css';
 import './css/bootstrap.min.css';
 import './css/bootstrap.min.css.map';
 import Navbar from './components/Navbar.jsx'
+import Modal from './components/Modal.jsx'
 
 export default App =>
 
@@ -90,6 +91,9 @@ export default App =>
                     FREE
                 </div>
             </div>
+            <Modal>
+                
+            </Modal>
         </div>
 
     </div>
