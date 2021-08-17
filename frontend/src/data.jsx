@@ -1,7 +1,7 @@
 import React from 'react';
 
 const data = {
-    products:[
+    product:[
         {
             _id:'1',
             name:'Cafune',

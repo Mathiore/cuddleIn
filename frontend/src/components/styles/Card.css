@@ -46,6 +46,7 @@ a{
 .card .desc p {
     font-size:2rem;
     width:100%;
+    font-family:"STIX Two Text", serif;
 }
 
 .card-hold{
@@ -57,11 +58,12 @@ a{
 @media(max-width:768px)
 {
     .card{
-        max-width: 100%;
+        width: 100%;
+        max-width: 22rem;
     }
 }
 
-@media(min-width:770px) and (max-width:1300px){
+@media(min-width:800px) and (max-width:1360px){
     .card{
         max-width: 20rem;
     }
@@ -69,6 +71,6 @@ a{
 
 @media(min-width:1368){
     .card{
-        max-width: 25rem !important;
+        max-width: 25rem;
     }
 }

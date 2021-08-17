@@ -8,8 +8,8 @@ export default Navbar =>
             <nav id="topmenu">
                 <ul>
                     <li><a href="#SHOP">Shop</a></li>
-                    <li><a href="sigin.html">Sign in</a></li>
-                    <li><a href="cart.html">Cart<i class="fas fa-shopping-cart"></i></a></li>
+                    <li><a href="/signin">Sign in</a></li>
+                    <li><a href="/cart">Cart<i class="fas fa-shopping-cart"></i></a></li>
                 </ul>
             </nav>
         </header>
